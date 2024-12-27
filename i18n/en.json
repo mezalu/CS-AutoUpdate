@@ -1,0 +1,23 @@
+{
+    "file": "File",
+    "edit": "Edit",
+    "quit": "Quit",
+    "undo": "Undo",
+    "redo": "Redo",
+    "cut": "Cut",
+    "copy": "Copy",
+    "paste": "Paste",
+    "view": "View",
+    "reload": "Reload",
+    "forcereload": "Force Reload",
+    "resetzoom": "Reset Zoom",
+    "zoomin": "Zoom In",
+    "zoomout": "Zoom Out",
+    "togglefullscreen": "Toogle Full Screen",
+    "window": "Window",
+    "minimize": "Minimize",
+    "zoom": "Zoom",
+    "close": "Close",
+    "help": "Help",
+    "documentation": "Documentation"
+}

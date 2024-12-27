@@ -1,0 +1,23 @@
+{
+    "file": "Archivo",
+    "edit": "Editar",
+    "quit": "Salir",
+    "undo": "Deshacer",
+    "redo": "Rehacer",
+    "cut": "Cortar",
+    "copy": "Copiar",
+    "paste": "Pegar",
+    "view": "Vista",
+    "reload": "Recargar",
+    "forcereload": "Forzar recarga",
+    "resetzoom": "Restablecer zoom",
+    "zoomin": "Acercar",
+    "zoomout": "Alejar",
+    "togglefullscreen": "Pantalla completa",
+    "window": "Ventana",
+    "minimize": "Minimizar",
+    "zoom": "Zoom",
+    "close": "Cerrar",
+    "help": "Ayuda",
+    "documentation": "Documentación"
+}
