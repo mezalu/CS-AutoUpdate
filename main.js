@@ -1,6 +1,7 @@
 const {app, BrowserWindow, Menu} = require('electron')
 const { autoUpdater } = require('electron-updater')
 const log = require('electron-log')
+const settings = require('electron-settings')
 const updateTitle = require('./utils/updateTitle')
 const axios = require('axios')
 const fs = require('fs')
@@ -122,6 +123,11 @@ if (!gotTheLock) {
         createWindow()
         checkAndExecuteCSUpdate()
         autoUpdater.checkForUpdatesAndNotify()
+        settings.set('autoLaunch', true);
+        app.setLoginItemSettings({
+            openAtLogin: true,
+            path: app.getPath('exe'),
+        })
         } catch (error) {
             log.error('Error al inicializar configuraciones:', error)
             app.quit()

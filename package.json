@@ -15,6 +15,7 @@
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
     "electron-log": "^5.2.4",
+    "electron-settings": "^4.0.4",
     "electron-updater": "^6.3.9",
     "ps-list": "^8.1.1"
   },
