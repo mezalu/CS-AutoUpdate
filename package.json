@@ -1,6 +1,6 @@
 {
   "name": "control-suite-pro-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Control Suite PRO App",
   "author": "GA Tech Solutions",
   "main": "main.js",
@@ -47,8 +47,9 @@
     },
     "publish": [
       {
-        "provider": "generic",
-        "url": "http://gitlab.ga.com.mx/Meza/cs-autoupdate.git"
+        "provider": "github",
+        "owner": "mezalu",
+        "repo": "CS-AutoUpdate"
       }
     ]
   },
