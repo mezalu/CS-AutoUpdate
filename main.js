@@ -121,9 +121,9 @@ if (!gotTheLock) {
         try {
         createWindow()
         checkAndExecuteCSUpdate()
+        autoUpdater.checkForUpdatesAndNotify()
         } catch (error) {
-           // log.error('Error al inicializar configuraciones:', error)
-            console.log('Error al inicializar configuraciones:', error)
+            log.error('Error al inicializar configuraciones:', error)
             app.quit()
         }
     })
