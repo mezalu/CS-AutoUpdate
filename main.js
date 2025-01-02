@@ -135,5 +135,13 @@ if (!gotTheLock) {
     app.on('activate', () => {
         BrowserWindow.getAllWindows().length === 0 && createWindow()
     })
+
+    autoUpdater.on('update-available', () => {
+        log.info('Update available.')
+      })
+    
+      autoUpdater.on('update-downloaded', () => {
+        autoUpdater.quitAndInstall()
+      })
    
 }
